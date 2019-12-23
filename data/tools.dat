@@ -109,7 +109,7 @@ Spammer-Grab|Spammer-Grab|sniffing_spoofing|https://github.com/p4kl0nc4t/Spammer
 Stitch|Stitch|null|https://github.com/nathanlopez/Stitch.git|git|python,git
 Striker|Striker|vulnerability_scanner|https://github.com/s0md3v/Striker.git|git|python,git
 Sublist3r|Sublist3r|information_gathering|https://github.com/aboul3la/Sublist3r.git|git|python,git
-TermuxAlpine|TermuxAlpine|termux_os|https://github.com/Hax4us/TermuxAlpine.git|git|git
+TermuxAlpine|TermuxAlpine|termux_os|https://github.com/Hax4us/TermuxAlpine.git|git|proot,git
 Th3inspector|Th3inspector|null|https://github.com/Moham3dRiahi/Th3inspector.git|git|perl,git
 The-Eye|The-Eye|null|https://github.com/EgeBalci/The-Eye.git|git|golang,git
 TheFatRat|TheFatRat|null|https://github.com/Screetsec/TheFatRat.git|git|git
@@ -139,7 +139,7 @@ airgeddon|airgeddon|wireless_testing|https://github.com/v1s1t0r1sh3r3/airgeddon.
 angryFuzzer|angryFuzzer|null|https://github.com/ihebski/angryFuzzer.git|git|python,git
 apache2|apache2|web_server,package|null|package_manager|null
 apt2|apt2|information_gathering|https://github.com/MooseDojo/apt2.git|git|python,git
-arch-linux|setupTermuxArch.sh|termux_os|https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh|curl|curl
+arch-linux|setupTermuxArch.sh|termux_os|https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh|curl|proot,curl
 arp-scan|arp-scan|information_gathering|https://github.com/royhills/arp-scan.git|git|clang,gcc,git
 avet|avet|null|https://github.com/govolution/avet.git|git|clang,gcc,git
 bbqsql|bbqsql|vulnerability_scanner|https://github.com/Neohapsis/bbqsql.git|git|python,git
@@ -321,9 +321,9 @@ sslstrip|sslstrip|information_gathering,sniffing_spoofing|https://github.com/mox
 sslyze|sslyze|information_gathering|https://github.com/iSECPartners/sslyze.git|git|python,git
 subscraper|subscraper|null|https://github.com/m8r0wn/subscraper.git|git|python,git
 termineter|termineter|stress_testing|https://github.com/securestate/termineter.git|git|python,git
-termux-fedora|termux-fedora|termux_os|https://github.com/nmilosev/termux-fedora.git|git|git
+termux-fedora|termux-fedora|termux_os|https://github.com/nmilosev/termux-fedora.git|git|proot,git
 termux-lazysqlmap|termux-lazysqlmap|null|https://github.com/verluchie/termux-lazysqlmap.git|git|git
-termux-ubuntu|termux-ubuntu|termux_os|https://github.com/Neo-Oli/termux-ubuntu.git|git|git
+termux-ubuntu|termux-ubuntu|termux_os|https://github.com/Neo-Oli/termux-ubuntu.git|git|proot,git
 thc-ipv6|thc-ipv6|information_gathering,vulnerability_scanner,exploitation_tools|https://github.com/vanhauser-thc/thc-ipv6.git|git|clang,gcc,git
 the-backdoor-factory|the-backdoor-factory|exploitation_tools|https://github.com/secretsquirrel/the-backdoor-factory.git|git|python,git
 theHarvester|theHarvester|information_gathering|https://github.com/laramies/theHarvester.git|git|python,git
@@ -349,7 +349,7 @@ wfdroid-termux|wfdroid-termux|null|https://github.com/bytezcrew/wfdroid-termux.g
 wfuzz|wfuzz|web_hacking|https://github.com/xmendez/wfuzz.git|git|python,git
 wget|wget|package|null|package_manager|null
 wifi-hacker|wifi-hacker|wireless_testing|https://github.com/esc0rtd3w/wifi-hacker.git|git|git
-wifigod|wifigod|wireless_testing|https://github.com/blackholesec/wifigod.git|git|python,git
+WifiGod|WifiGod|wireless_testing|https://github.com/waseem-sajjad/WifiGod.git|git|python,git
 wifiphisher|wifiphisher|wireless_testing|https://github.com/wifiphisher/wifiphisher.git|git|python,git
 wifitap|wifitap|wireless_testing|https://github.com/GDSSecurity/wifitap.git|git|python,git
 wifite2|wifite2|wireless_testing|https://github.com/derv82/wifite2.git|git|python,git
