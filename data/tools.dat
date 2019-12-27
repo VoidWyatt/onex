@@ -37,6 +37,7 @@ Dracnmap|Dracnmap|null|https://github.com/Screetsec/Dracnmap.git|git|git
 EagleEye|EagleEye|null|https://github.com/ThoughtfulDev/EagleEye.git|git|python,git
 EasY_HaCk|EasY_HaCk|null|https://github.com/sabri-zaki/EasY_HaCk.git|git|python,git
 EggShell|EggShell|null|https://github.com/neoneggplant/EggShell.git|git|python,git
+Email-Spammer|Email-Spammer|null|https://github.com/Juniorn1003/Email-Spammer.gitl.git|git|python,git
 Empire|Empire|null|https://github.com/EmpireProject/Empire.git|git|git
 EvilURL|EvilURL|information_gathering|https://github.com/UndeadSec/EvilURL.git|git|python,git
 ExploitOnCLI|ExploitOnCLI|exploitation_tools|https://github.com/r00tmars/ExploitOnCLI.git|git|php,git
@@ -51,7 +52,6 @@ GoldenEye|GoldenEye|stress_testing|https://github.com/jseidl/GoldenEye.git|git|p
 HT-WPS-Breaker|HT-WPS-Breaker|null|https://github.com/SilentGhostX/HT-WPS-Breaker.git|git|git
 HTools|HTools|null|https://github.com/mehedishakeel/HTools.git|git|git
 Hash-Buster|Hash-Buster|password_attack|https://github.com/UltimateHackers/Hash-Buster.git|git|python,git
-Hashzer|Hashzer|password_attack|https://github.com/Anb3rSecID/Hashzer.git|git|python,git
 Hatch|Hatch|null|https://github.com/MetaChar/Hatch.git|git|python,git
 HiddenEye|HiddenEye|null|https://github.com/DarkSecDevelopers/HiddenEye.git|git|python,git
 Hunner|Hunner|null|https://github.com/b3-v3r/Hunner.git|git|python,git
