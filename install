@@ -22,6 +22,10 @@ elif [ -d /usr/bin ]; then
   bin="/usr/bin"
 elif [ -d /bin ]; then
   bin="/bin"
+elif [ -d /usr/sbin ]; then
+  bin="/usr/sbin"
+elif [ -d /sbin ]; then
+  bin="/sbin"
 fi
 
 # checking for configuration dir
@@ -55,9 +59,13 @@ if [ -e /usr/lib/sudo ]; then
   sudo="sudo"
 elif [ -e /usr/bin/sudo ]; then
   sudo="sudo"
+elif [ -e /usr/sbin/sudo ]; then
+  sudo="sudo"
 elif [ -e /lib/sudo ]; then
   sudo="sudo"
 elif [ -e /bin/sudo ]; then
+  sudo="sudo"
+elif [ -e /sbin/sudo ]; then
   sudo="sudo"
 elif [ -e /data/data/com.termux/files/usr/bin/sudo ]; then
   sudo="sudo"
@@ -65,7 +73,7 @@ else
   sudo=""
 fi
 
-# checking system package manager
+# checking for system package manager
 if [ -e /bin/apt ]; then
   pac="apt-get"
   system="linux"
@@ -75,10 +83,22 @@ elif [ -e /bin/apt-get ]; then
 elif [ -e /usr/bin/apt-get ]; then
   pac="apt-get"
   system="linux"
+elif [ -e /sbin/apt-get ]; then
+  pac="apt-get"
+  system="linux"
+elif [ -e /usr/sbin/apt-get ]; then
+  pac="apt-get"
+  system="linux"
 elif [ -e /bin/apk ]; then
   pac="apk"
   system="linux"
 elif [ -e /usr/bin/apk ]; then
+  pac="apk"
+  system="linux"
+elif [ -e /sbin/apk ]; then
+  pac="apk"
+  system="linux"
+elif [ -e /usr/sbin/apk ]; then
   pac="apk"
   system="linux"
 elif [ -e /bin/yum ]; then
@@ -87,10 +107,22 @@ elif [ -e /bin/yum ]; then
 elif [ -e /usr/bin/yum ]; then
   pac="yum"
   system="fedora"
+elif [ -e /sbin/yum ]; then
+  pac="yum"
+  system="fedora"
+elif [ -e /usr/sbin/yum ]; then
+  pac="yum"
+  system="fedora"
 elif [ -e /bin/brew ]; then
   pac="brew"
   system="mac"
 elif [ -e /usr/bin/brew ]; then
+  pac="brew"
+  system="mac"
+elif [ -e /sbin/brew ]; then
+  pac="brew"
+  system="mac"
+elif [ -e /usr/sbin/brew ]; then
   pac="brew"
   system="mac"
 elif [ -e /data/data/com.termux/files/usr/bin/pkg ]; then
