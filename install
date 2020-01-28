@@ -7,12 +7,15 @@ logo="\033[01;33m
 \033[01;33m| (_) | | | |  __/\033[01;31m>  < 
 \033[01;33m \___/|_| |_|\\___\033[01;31m/_/\_\\
 "
+
+# checking for system home dir
 if [ -d $HOME ]; then
   home=$HOME
 else
   home="~/"
 fi
 
+# checking for system bin dir
 if [ -d /data/data/com.termux/files/usr/bin ]; then
   bin="/data/data/com.termux/files/usr/bin"
 elif [ -d /usr/bin ]; then
@@ -21,6 +24,7 @@ elif [ -d /bin ]; then
   bin="/bin"
 fi
 
+# checking for configuration dir
 if [ -d /data/data/com.termux/files/usr/etc ]; then
   conf_dir="/data/data/com.termux/files/usr/etc"
 elif [ -d /usr/etc ]; then
@@ -29,6 +33,7 @@ elif [ -d /etc ]; then
   conf_dir="/etc"
 fi
 
+# configuration files
 if [ -d $conf_dir/onex ]; then
   if [ -e $conf_dir/onex/data/tools.dat ]; then
     tools_data="$conf_dir/onex/data/tools.dat"
@@ -45,6 +50,7 @@ else
   fi
 fi
 
+# checking for system root access
 if [ -e /usr/lib/sudo ]; then
   sudo="sudo"
 elif [ -e /usr/bin/sudo ]; then
@@ -59,6 +65,7 @@ else
   sudo=""
 fi
 
+# checking system package manager
 if [ -e /bin/apt ]; then
   pac="apt-get"
   system="linux"
@@ -67,6 +74,12 @@ elif [ -e /bin/apt-get ]; then
   system="linux"
 elif [ -e /usr/bin/apt-get ]; then
   pac="apt-get"
+  system="linux"
+elif [ -e /bin/apk ]; then
+  pac="apk"
+  system="linux"
+elif [ -e /usr/bin/apk ]; then
+  pac="apk"
   system="linux"
 elif [ -e /bin/yum ]; then
   pac="yum"
