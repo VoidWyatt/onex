@@ -1,4 +1,4 @@
-# Onex v0.1
+# Onex
 
 ***"onex a hacking tools library."***
 Onex is a kali linux hacking tools installer for termux and other linux distribution. It's package manager for hacker's.
