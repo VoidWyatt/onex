@@ -69,5 +69,6 @@ Enter a Number for a specific output:
 
 **Warning**
 
-Please use this tool at your own risk!
+We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
+
 
