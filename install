@@ -18,6 +18,8 @@ fi
 # checking for system bin dir
 if [ -d /data/data/com.termux/files/usr/bin ]; then
   bin="/data/data/com.termux/files/usr/bin"
+elif [ -d /usr/local/bin ]; then
+  bin="/usr/local/bin"
 elif [ -d /bin ]; then
   bin="/bin"
 elif [ -d /sbin ]; then
