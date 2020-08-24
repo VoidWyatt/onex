@@ -112,21 +112,10 @@ elif [ -e /sbin/yum ]; then
 elif [ -e /usr/sbin/yum ]; then
   pac="yum"
   system="fedora"
-elif [ -e /bin/brew ]; then
-  pac="brew"
-  system="mac"
-elif [ -e /usr/bin/brew ]; then
-  pac="brew"
-  system="mac"
-elif [ -e /sbin/brew ]; then
-  pac="brew"
-  system="mac"
-elif [ -e /usr/sbin/brew ]; then
-  pac="brew"
-  system="mac"
 elif [ -e /usr/local/bin/brew ]; then
   pac="brew"
   system="mac"
+  sudo=""
 elif [ -e /data/data/com.termux/files/usr/bin/pkg ]; then
   pac="pkg"
   system="termux"
