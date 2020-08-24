@@ -21,12 +21,8 @@ fi
 # checking for system bin dir
 if [ -d /data/data/com.termux/files/usr/bin ]; then
   bin="/data/data/com.termux/files/usr/bin"
-elif [ -d /usr/bin ]; then
-  bin="/usr/bin"
 elif [ -d /bin ]; then
   bin="/bin"
-elif [ -d /usr/sbin ]; then
-  bin="/usr/sbin"
 elif [ -d /sbin ]; then
   bin="/sbin"
 fi
@@ -34,8 +30,6 @@ fi
 # checking for configuration dir
 if [ -d /data/data/com.termux/files/usr/etc ]; then
   conf_dir="/data/data/com.termux/files/usr/etc"
-elif [ -d /usr/etc ]; then
-  conf_dir="/usr/etc"
 elif [ -d /etc ]; then
   conf_dir="/etc"
 fi
